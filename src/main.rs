@@ -1,6 +1,9 @@
 use bevy::prelude::*;
+// use bevy::input::common_conditions::input_toggle_active;
+// use bevy_inspector_egui::quick::WorldInspectorPlugin;
 
 fn main() {
     App::new().run();
-}
 
+    // .add_plugins(WorldInspectorPlugin::default().run_if(input_toggle_active(false, KeyCode::Escape)),)
+}
